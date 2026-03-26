@@ -66,9 +66,9 @@ const Login = () => {
             </form>
             {msg && <div className={`message ${msg.includes("Failed") ? 'error' : 'success'}`}>{msg}</div>}
 
-            <p className="toggle-link">
+            {/* <p className="toggle-link">
                 Don't have an account? <span onClick={() => navigate('/signup')}>Sign Up</span>
-            </p>
+            </p> */}
         </div>
     );
 };
